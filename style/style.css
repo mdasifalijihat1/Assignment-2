@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*  share items  */
+
+.disply-flex {
+  display: flex;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: rgba(255, 255, 255, 0.5);
+  --orange-color: #e6533c;
+}
+/* .bg-color{
+    background-color: rgba(119, 119, 119, 1);
+} */
+
+/*  nave bar design  */
+body {
+  background-color: black;
+}
+
+header {
+  background-color: rgb(58, 57, 57);
+}
+.hed-bg {
+  width: 1440;
+  margin: 0 190px;
+}
+.Fitness {
+  color: var(--orange-color);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 10px;
+}
+
+.nav-item1 {
+  background-color: #e6533c;
+  border-radius: 46px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 47px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  background: #e6533c;
+  border-radius: 48px;
+}
+
+/* header banner design  */
+
+.banner-01 {
+  justify-content: space-between;
+}
+.get-body {
+  max-width: 600px;
+  margin-top: 96px;
+  margin-bottom: 76px;
+}
+.get-body-title {
+  color: var(--primary-color);
+}
+.get-body-description {
+  color: var(--secondary-color);
+}
+
+.btn-primery {
+  color: var(--primary-color);
+  background-color: #e6533c;
+  border-radius: 46px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.btn-downlod {
+  color: var(--primary-color);
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 46px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* banner images design  */
+
+.free-work {
+  max-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 76px;
+}
+.work-video {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+  width: 193px;
+  height: 98px;
+  text-align: center;
+  transform: translateX(300%) translateY(200%);
+}
+
+.total-video {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.15rem;
+  margin: 0;
+}
+
+.work-video-discription {
+  color: var(--secondary-color);
+}
+
+.images-banner-1 {
+  width: 350px;
+  height: 580px;
+  margin-top: ;
+}
+
+.video-tutorial {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  width: 193px;
+  height: 98px;
+  align-items: center;
+  transform: translateX(150%) translateY(200%);
+}
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: #e6533c;
+  border: 2px solid #e6533c;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.video-350 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.video-description {
+  color: var(--secondary-color);
+}
+
+/*  change your Habits */
+.Habit {
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 98px;
+  margin-bottom: 100px;
+}
+
+.Habits {
+  text-align: center;
+}
+.Change-habits {
+  font-weight: 600;
+  font-size: 2.15rem;
+  color: var(--primary-color);
+}
+.change-habits-description {
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+/*  Movement images style  */
+.habits-continer {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+.Movement {
+  text-align: center;
+}
+.mov-img {
+  border-radius: 100%;
+}
+.mov-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--primary-color);
+}
+.mov-description {
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+/* Run an Extra Easily style */
+
+.Extra {
+  justify-content: space-between;
+  background-color: rgb(58, 57, 57);
+  border-radius: 8px;
+  max-width: 1034px;
+  margin: 0 auto;
+}
+.Extra-easy {
+  margin-left: 54px;
+}
+
+.Extra-easy-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.Extra-easy-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.extra-images {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+/* Trainings and exercises style */
+
+.Trainings {
+  max-width: 1060px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Training {
+  margin-bottom: 58px;
+}
+
+.Training-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin: 0 auto;
+}
+.Training-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+/*  Train-images design  */
+.Train {
+  margin-bottom: 88px;
+}
+.Train-image .Train-images1 {
+  width: 250px;
+  height: 201px;
+}
+.Train-images2 {
+  width: 520px;
+  height: 201px;
+}
+.Train-images3 {
+  width: 290px;
+  height: 201px;
+}
+.Train-images4 {
+  width: 425px;
+  height: 201px;
+}
+.Train-images5 {
+  width: 288px;
+  height: 201px;
+}
+.Train-images6 {
+  width: 347px;
+  height: 201px;
+}
+
+/* BMI Calculator style  */
+
+.Calculator {
+  max-width: 671px;
+  margin: 0 auto;
+}
+.Calculator-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.Calculator-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* table and BIM calculator style */
+
+.bm-bg {
+  background-color: rgb(58, 57, 57);
+}
+
+.chat-calculate {
+  justify-content: space-between;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.chart-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  color: var(--secondary-color);
+}
+
+.Calculate {
+  padding: 20px;
+}
+.calculate-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.calculate-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.input-calculator {
+  color: var(--secondary-color);
+  padding: 10px;
+}
+
+.BIM-chart {
+  margin-left: 190px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+/* Meet our team */
+
+.our-meet {
+  max-width: 1060px;
+  margin: 58px auto;
+}
+
+.Team {
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.team-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.team-images {
+}
+.team-meet {
+}
+.team-meet-img {
+  width: 326px;
+  height: 272px;
+  border-radius: 18px;
+}
+
+/* footer style */
+
+footer {
+  background-color: rgb(58, 57, 57);
+}
+
+.fit-descrip {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.ft-link {
+  display: inline;
+  row-gap: 102px;
+}
+.ft-link-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  text-align: center;
+  align-items: center;
+}
+.ft-lin-ul {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+  list-style: none;
+}
+
+.ft-lin-li {
+  align-items: center;
+}
+
+.ft-lin-a {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.copyright-title {
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 10px;
+}
+
+.footer-option {
+  justify-content: space-around;
+  max-width: 1059px;
+  margin: 0 auto;
+}
+
+/*  media quary  */
+
+@media (max-width: 576px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  .banner-01 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .get-body {
+    margin-bottom: 20px;
+  }
+
+  .free-work {
+   display: none;
+  }
+  .images-banner-1 {
+    width: 100%;
+    height: auto;
+  }
+  .habits-continer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Movement {
+    margin-bottom: 20px;
+  }
+  .Extra {
+    flex-direction: column;
+    text-align: center;
+  }
+  .extra-images {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+   
+   .Trainings{
+    text-align: center;
+    max-width: 684px;
+    margin:0 auto;
+    
+   }
+   .chat-calculate{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+   }
+
+   .team-images{
+    width: 677px;
+    height: 604px;
+    align-items: center;
+    padding: 10px;
+   }
+   
+   .footer-option{
+    flex-direction: column;
+    text-align: center;
+   }
+
+
+}

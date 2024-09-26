@@ -1,0 +1,548 @@
+.inter-text-auto {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --bg-primary-color: #E6533C;
+    --bg-secondary-color: #222222;
+    --primary-text-color: #FFFFFF;
+}
+
+/*  nav design  */
+
+header {
+
+    color: var(--bg-secondary-color);
+    background-color: #222222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: auto;
+}
+
+.header-title {
+    color: var(--bg-primary-color);
+    font-style: italic;
+}
+
+ul,
+li,
+a {
+    display: flex;
+    text-decoration: none;
+    gap: 47px;
+    color: var(--primary-text-color);
+    align-items: center;
+}
+
+.nav-home {
+    background-color: var(--bg-primary-color);
+    padding: 4px;
+    border-radius: 6px;
+
+}
+
+ul {
+    border: 0.5px solid rgb(114, 113, 113);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+/* first banner desing  */
+
+
+.banner {
+    margin-left: 190px;
+    margin-right: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-text {
+    margin-bottom: 76px;
+    color: var(--primary-text-color);
+}
+
+.banner-text-1 {
+    font-style: normal;
+    font-size: 78px;
+}
+
+.banner-text-style {
+    font-family: "miama", cursive;
+    font-style: italic;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.button-banner1 {
+    background-color: var(--bg-primary-color);
+    border: 2px solid #E6533C;
+    border-radius: 42px;
+    padding: 16px 46px;
+    color: var(--primary-text-color);
+    font-size: 18px;
+}
+
+.button-banner2 {
+    background-color: var(--bg-secondary-color);
+    border: 1px solid;
+    border-radius: 42px;
+    padding: 16px 46px;
+    color: var(--primary-text-color);
+    font-size: 18px;
+}
+
+/* bunner images design  */
+
+.review {
+    display: flex;
+}
+
+.banner-rewiew {
+    color: var(--primary-text-color);
+    background-color: #3b3b3b;
+    display: block;
+    opacity: 10px;
+    text-align: center;
+    width: 193px;
+    height: 98px;
+    border: 1px solid white;
+    border-radius: 12px;
+    gap: 20px;
+    transform: translateX(400%) translateY(200%);
+}
+
+.banner-rewiew-01 {
+    color: var(--primary-text-color);
+    background-color: #3b3b3b;
+    width: 193px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    gap: 10px;
+    padding-left: 20px;
+    transform: translateX(100%) translateY(450%);
+}
+
+.box {
+    display: flex;
+    background-color: var(--bg-primary-color);
+    border: 2px solid #E6533C;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.images-01 {
+    width: 349px;
+    height: 580px;
+}
+
+/*  main section design */
+.section-2 {
+    margin-top: 129px;
+    margin-left: 198px;
+    margin-right: 198px;
+    color: var(--primary-text-color);
+    text-align: center;
+}
+
+.section-text {
+    margin-bottom: 58px;
+}
+
+.continer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-01 {
+    width: 231px;
+    height: 234px;
+}
+
+.imag-round {
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+/*  section-3 Banner images -3  */
+
+.section-3 {
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+    color: var(--primary-text-color);
+    background-color: var(--bg-secondary-color);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+
+.banner-01-text {
+    margin-top: 54px;
+    margin-left: 41px;
+    margin-bottom: 40px;
+    width: 443px;
+    height: 290px;
+    gap: 50px;
+
+}
+
+.section-3-banner {
+    margin-top: 30px;
+    margin-right: 6px;
+    margin-bottom: 29px;
+
+}
+
+.section-3-banner-images {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+/*  section-4 design  */
+
+.section-4 {
+    margin-top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+    color: var(--primary-text-color);
+}
+
+.section4-banner {
+    margin-bottom: 58px;
+
+}
+
+.continer2 {
+    align-items: center;
+}
+
+.banner2-images1 {
+    width: 250px;
+    height: 201px;
+}
+
+.banner2-images2 {
+    width: 520px;
+    height: 201px;
+}
+
+.banner2-images3 {
+    width: 290px;
+    height: 201px;
+}
+
+.banner2-images4 {
+    width: 425px;
+    height: 201px;
+}
+
+.banner2-images5 {
+    width: 288px;
+    height: 201px;
+}
+
+.banner2-images6 {
+    width: 347px;
+    height: 201px;
+}
+
+/* sesction-5 design  */
+
+.sesction-5 {
+    margin-top: 88px;
+    margin-left: 384px;
+    margin-right: 384px;
+    margin-bottom: 88px;
+    color: var(--primary-text-color);
+}
+
+/*  calculator design */
+
+.calculator {
+    background-color: var(--bg-secondary-color);
+    color: var(--primary-text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-box {
+    margin-left: 190px;
+    margin-top: 52px;
+    margin-bottom: 133px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid rgb(124, 124, 124);
+    border-collapse: collapse;
+    padding: 18px;
+}
+
+.calculator-BMI {
+    margin-top: 52px;
+    margin-right: 190px;
+    margin-bottom: 49px;
+}
+
+.input {
+    padding:px;
+    margin: 5px;
+
+}
+.Height{
+    width: 577px;
+    height: auto;
+    margin: 5px;
+}
+.input-height{
+    color: var(--primary-text-color);
+    background-color: #424242;
+    padding: 10px;
+    border: 2px solid rgb(78, 76, 76);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px;
+}
+.input-height2{
+    color: var(--primary-text-color);
+    background-color: #424242;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.input-height3{
+    color: var(--primary-text-color);
+    background-color: #424242;
+    padding-left: 120px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
+/* last banner design  */
+
+.last-banner {
+    margin-top: 88px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 88px;
+    color: var(--primary-text-color);
+    text-align: center;
+}
+
+.last-banner-text {
+    margin-bottom: 58px;
+}
+
+.last-images {
+    background-color: var(--bg-secondary-color);
+}
+
+.last-banner-images {
+    width: 326px;
+    height: 272px;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+/* footer design  */
+footer {
+    background-color: var(--bg-secondary-color);
+    
+}
+
+.footer-background {
+    display: flex;
+    justify-content: space-around;
+    color: var(--primary-text-color);
+
+}
+
+.footer-title {
+    margin-top: 66px;
+    margin-bottom: 79px;
+    gap: 20px;
+  
+}
+
+.footer-get-1 {
+    margin-top: 66px;
+    margin-bottom: 79px;
+    gap: 20px;
+}
+
+.footer-get-2{
+    margin-top: 66px;
+    margin-bottom: 79px;
+
+   
+    
+}
+
+.copyright{
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+/*  media quary  */
+@media ( max-width: 576px ) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .header-title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    ul{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+      .nav-home{
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+       /* first banner design  */
+    .banner{
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+    }
+    .banner-text-1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .button{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px;
+    }
+    .banner-rewiew{
+       display: none;
+    }
+    .button-banner1, .button-banner2{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        transform: none;
+    }
+    .review{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-rewiew, .banner-rewiew-01{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .images-01{
+        width: 100%;
+        height: auto;
+    }
+
+    /*  all section margin  */
+
+    .section-2, .section-3, .sesction-5, .section-4, .last-banner{
+        margin: 10px;
+    }
+    .section-3{
+        flex-direction: column;
+    }
+    .section-3-banner-images{
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .continer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    /*  all images width and height  */
+    .img-01{
+        width: 100%;
+        height: auto;
+    }
+    .banner2-images1, .banner2-images2, .banner2-images3, .banner2-images4, .banner2-images5, 
+    .banner2-images6, .last-banner-images{
+        width: 100%;
+        height: auto;
+    }
+     /* input box  */
+     .Height{
+        width: 100%;
+     }
+     .input-height, .input-height2, .input-height3{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+     }
+
+    /* calculator   */
+    .calculator{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    /* table */
+
+    .table-box{
+        margin: 10px 0;
+    }
+    table, tr, th, td{
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    /*  footer  */
+     
+    .footer-background{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+    .footer-get-1, .footer-get-2, .footer-title{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
